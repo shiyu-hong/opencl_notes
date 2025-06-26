@@ -1,0 +1,7 @@
+# RStudio
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+**/docs/

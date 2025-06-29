@@ -15,13 +15,13 @@ book:
     
     - part: "如何配置 OpenCL 环境"
       chapters: 
-        - "content/chap01_environment/vcpkg.qmd"
+        - "content/chap01_environment/opencl.qmd"
 
 format:
   html:
     theme:
-      dark: superhero
       light: cosmo
+      dark: cyborg
   pdf:
     documentclass: book
     include-in-header: "tex/preamble.tex"

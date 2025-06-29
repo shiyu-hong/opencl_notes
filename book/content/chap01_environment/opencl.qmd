@@ -1,0 +1,5 @@
+# OpenCL 开发环境配置
+
+OpenCL 的官方网站（<https://www.khronos.org/opencl>）由 Khronos Group 维护，包含了 OpenCL 规范、头文件、参考指南及其他相关资源的最新版本。
+
+## 设置基于 AMD 平台的 OpenCL 开发环境

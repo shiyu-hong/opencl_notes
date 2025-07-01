@@ -2,8 +2,12 @@
 
 OpenCL 的官方网站（<https://www.khronos.org/opencl>）由 Khronos Group 维护，包含了 OpenCL 规范、头文件、参考指南及其他相关资源的最新版本。
 
-## 设置基于 AMD 平台的 OpenCL 开发环境
+## 配置基于 AMD 平台的 OpenCL 开发环境
 
--   HIP SDK
+AMD 平台通过 ROCm 框架提供对 OpenCL 的支持。相关文档请参阅 [AMD ROCm 文档](https://rocm.docs.amd.com/en/latest/)。
 
-    -   Windows（[https://rocm.docs.amd.com/projects/install-on-windows/en/develop](https://rocm.docs.amd.com/projects/install-on-windows/en/develop/)）
+-   若需在 Windows 操作系统上配置基于 AMD 平台的 OpenCL 开发环境，需安装 HIP SDK。
+
+    -   HIP SDK 安装指南：[https://rocm.docs.amd.com/projects/install-on-windows/en/develop](https://rocm.docs.amd.com/projects/install-on-windows/en/develop/)
+
+-   若需在 WSL 子系统上配置基于 AMD 平台的 OpenCL 开发环境，可以参考：<https://rocm.docs.amd.com/projects/radeon/en/latest/docs/install/wsl/install-radeon.html>
